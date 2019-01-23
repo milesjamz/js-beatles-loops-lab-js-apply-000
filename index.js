@@ -27,6 +27,7 @@ const foobarfacts = [
     i++;
     }
     return newFacts;
+    return foobarfacts;
 
 }
 
