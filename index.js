@@ -26,7 +26,7 @@ const morefacts = [
     newFacts.push(facts[i] +"!!!");
     i++;
     }
-    return morefacts + newFacts;
+    return newFacts;
 
 }
 
