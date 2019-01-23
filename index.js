@@ -16,7 +16,7 @@ const facts = [
   "He was a choir boy and boy scout",
   "He hated the sound of his own voice",
 ];
-const foobarfacts = [
+const morefacts = [
   "foo",
   "bar",
 ];
@@ -26,7 +26,7 @@ const foobarfacts = [
     newFacts.push(facts[i] +"!!!");
     i++;
     }
-    return newFacts;
+    return morefacts + newFacts;
 
 }
 
