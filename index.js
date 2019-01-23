@@ -26,8 +26,7 @@ const foobarfacts = [
     newFacts.push(facts[i] +"!!!");
     i++;
     }
-    return newFacts;
-    return foobarfacts;
+    return newFacts + foobarfacts;
 
 }
 
